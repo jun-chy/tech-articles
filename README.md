@@ -3,8 +3,8 @@
 > 嵌入式开发、数据结构与Qt技术文章合集 | Embedded Systems, Data Structures & Qt Articles
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Articles-10-blue" alt="10 Articles"/>
-  <img src="https://img.shields.io/badge/Topics-Embedded%20%7C%20DS%20%7C%20Qt-orange" alt="Topics"/>
+  <img src="https://img.shields.io/badge/Articles-11-blue" alt="11 Articles"/>
+  <img src="https://img.shields.io/badge/Topics-Embedded%20%7C%20DS%20%7C%20Qt%20%7C%20CV-orange" alt="Topics"/>
   <img src="https://img.shields.io/badge/Language-中文-lightgrey" alt="Chinese"/>
 </p>
 
@@ -33,12 +33,18 @@
 | 9 | [使用Qt5开发跨平台串口调试助手](qt/09-Qt5串口调试助手开发.md) | QSerialPort、模块化架构、QSS样式美化、跨平台编译 |
 | 10 | [Qt Model/View架构与自定义委托实战](qt/10-Qt-Model-View架构与自定义委托.md) | QAbstractTableModel、自定义委托、进度条渲染、QSortFilterProxyModel |
 
+## 计算机视觉 | Computer Vision
+
+| # | 文章 | 核心内容 |
+|---|------|----------|
+| 11 | [OpenCV生态全景：从GitHub热门项目到实战应用](opencv/11-OpenCV生态全景.md) | GitHub项目调研、核心模块速览、算法对比、实战项目设计、学习路线 |
+
 ---
 
 ## About
 
 - **Author**: 蔡浩宇 (Cai Haoyu)
-- **Focus**: Embedded Systems (STM32), Data Structures & Algorithms, Qt/C++ Desktop Applications
+- **Focus**: Embedded Systems (STM32), Data Structures & Algorithms, Qt/C++ Desktop Applications, Computer Vision (OpenCV)
 - **Contact**: [GitHub Profile](https://github.com/jun-chy)
 
 ## License
