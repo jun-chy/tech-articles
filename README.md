@@ -2,6 +2,12 @@
 
 > 嵌入式开发、数据结构与Qt技术文章合集 | Embedded Systems, Data Structures & Qt Articles
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Articles-10-blue" alt="10 Articles"/>
+  <img src="https://img.shields.io/badge/Topics-Embedded%20%7C%20DS%20%7C%20Qt-orange" alt="Topics"/>
+  <img src="https://img.shields.io/badge/Language-中文-lightgrey" alt="Chinese"/>
+</p>
+
 ## 嵌入式软件 | Embedded Systems
 
 | # | 文章 | 核心内容 |
