@@ -3,7 +3,7 @@
 > 嵌入式开发、数据结构与Qt技术文章合集 | Embedded Systems, Data Structures & Qt Articles
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Articles-11-blue" alt="11 Articles"/>
+  <img src="https://img.shields.io/badge/Articles-13-blue" alt="13 Articles"/>
   <img src="https://img.shields.io/badge/Topics-Embedded%20%7C%20DS%20%7C%20Qt%20%7C%20CV-orange" alt="Topics"/>
   <img src="https://img.shields.io/badge/Language-中文-lightgrey" alt="Chinese"/>
 </p>
@@ -16,6 +16,7 @@
 | 2 | [嵌入式串口通信：UART协议与DMA传输优化](embedded/02-UART-DMA传输优化.md) | UART帧格式、中断接收、DMA+空闲中断、数据帧协议设计 |
 | 3 | [STM32中断系统深度解析：NVIC优先级管理](embedded/03-STM32-NVIC中断优先级管理.md) | 中断向量表、优先级分组、抢占/子优先级、EXTI配置、ISR编写规范 |
 | 4 | [I2C与SPI通信协议实战对比](embedded/04-I2C-SPI协议对比.md) | I2C/SPI时序、HAL实现、四线vs两线对比、选型决策树 |
+| 12 | [STM32定时器全解：从基本定时到PWM输出](embedded/12-STM32定时器全解.md) | 定时器分类、时基单元、PWM输出、输入捕获、舵机控制、高级定时器互补输出与死区 |
 
 ## 数据结构 | Data Structures
 
@@ -24,6 +25,7 @@
 | 5 | [单链表的完整实现：从原理到C语言实战](data-structures/05-单链表完整实现.md) | 链表vs数组、增删改查、反转算法、嵌入式任务链表应用 |
 | 6 | [环形缓冲区设计：嵌入式高效数据管理](data-structures/06-环形缓冲区设计.md) | 留空法实现、位掩码优化、DMA+环形缓冲、批量操作 |
 | 7 | [哈希表原理与C语言实现](data-structures/07-哈希表原理与C语言实现.md) | DJB2/FNV-1a哈希函数、开放寻址vs链地址、命令解析表实战 |
+| 13 | [二叉搜索树与AVL平衡树：BST到自平衡的工程实现](data-structures/13-二叉搜索树与AVL平衡树.md) | BST基础操作、退化问题、AVL四种旋转、嵌入式配置管理、性能实测对比 |
 
 ## Qt开发 | Qt Framework
 
