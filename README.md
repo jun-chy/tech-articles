@@ -3,7 +3,7 @@
 > 嵌入式开发、数据结构与Qt技术文章合集 | Embedded Systems, Data Structures & Qt Articles
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Articles-13-blue" alt="13 Articles"/>
+  <img src="https://img.shields.io/badge/Articles-15-blue" alt="15 Articles"/>
   <img src="https://img.shields.io/badge/Topics-Embedded%20%7C%20DS%20%7C%20Qt%20%7C%20CV-orange" alt="Topics"/>
   <img src="https://img.shields.io/badge/Language-中文-lightgrey" alt="Chinese"/>
 </p>
@@ -26,6 +26,7 @@
 | 6 | [环形缓冲区设计：嵌入式高效数据管理](data-structures/06-环形缓冲区设计.md) | 留空法实现、位掩码优化、DMA+环形缓冲、批量操作 |
 | 7 | [哈希表原理与C语言实现](data-structures/07-哈希表原理与C语言实现.md) | DJB2/FNV-1a哈希函数、开放寻址vs链地址、命令解析表实战 |
 | 13 | [二叉搜索树与AVL平衡树：BST到自平衡的工程实现](data-structures/13-二叉搜索树与AVL平衡树.md) | BST基础操作、退化问题、AVL四种旋转、嵌入式配置管理、性能实测对比 |
+| 15 | [堆与优先队列：C语言实现到嵌入式任务调度](data-structures/15-堆与优先队列C语言实现与嵌入式调度.md) | 二叉堆数组表示、sift-up/sift-down、堆排序O(1)空间、RTOS任务调度器、d-堆性能对比 |
 
 ## Qt开发 | Qt Framework
 
@@ -34,6 +35,7 @@
 | 8 | [Qt信号与槽机制深度解析](qt/08-Qt信号与槽机制深度解析.md) | moc编译器原理、元对象系统、跨线程通信、连接类型 |
 | 9 | [使用Qt5开发跨平台串口调试助手](qt/09-Qt5串口调试助手开发.md) | QSerialPort、模块化架构、QSS样式美化、跨平台编译 |
 | 10 | [Qt Model/View架构与自定义委托实战](qt/10-Qt-Model-View架构与自定义委托.md) | QAbstractTableModel、自定义委托、进度条渲染、QSortFilterProxyModel |
+| 14 | [Qt多线程编程：QThread与线程池实战](qt/14-Qt多线程编程QThread与线程池实战.md) | QThread两种用法、moveToThread范式、QThreadPool+QRunnable、QtConcurrent、串口采集多线程架构 |
 
 ## 计算机视觉 | Computer Vision
 
