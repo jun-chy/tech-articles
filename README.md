@@ -3,7 +3,7 @@
 > 嵌入式开发、数据结构与Qt技术文章合集 | Embedded Systems, Data Structures & Qt Articles
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Articles-17-blue" alt="17 Articles"/>
+  <img src="https://img.shields.io/badge/Articles-19-blue" alt="19 Articles"/>
   <img src="https://img.shields.io/badge/Topics-Embedded%20%7C%20DS%20%7C%20Qt%20%7C%20CV-orange" alt="Topics"/>
   <img src="https://img.shields.io/badge/Language-中文-lightgrey" alt="Chinese"/>
 </p>
@@ -17,6 +17,7 @@
 | 3 | [STM32中断系统深度解析：NVIC优先级管理](embedded/03-STM32-NVIC中断优先级管理.md) | 中断向量表、优先级分组、抢占/子优先级、EXTI配置、ISR编写规范 |
 | 4 | [I2C与SPI通信协议实战对比](embedded/04-I2C-SPI协议对比.md) | I2C/SPI时序、HAL实现、四线vs两线对比、选型决策树 |
 | 12 | [STM32定时器全解：从基本定时到PWM输出](embedded/12-STM32定时器全解.md) | 定时器分类、时基单元、PWM输出、输入捕获、舵机控制、高级定时器互补输出与死区 |
+| 18 | [FreeRTOS任务调度与内存管理：从就绪链表到堆栈检测](embedded/18-FreeRTOS任务调度与内存管理.md) | TCB结构、任务状态机、就绪列表与优先级位图、PendSV上下文切换、heap_1~heap_5、栈溢出检测、STM32多任务实战 |
 
 ## 数据结构 | Data Structures
 
@@ -38,6 +39,7 @@
 | 10 | [Qt Model/View架构与自定义委托实战](qt/10-Qt-Model-View架构与自定义委托.md) | QAbstractTableModel、自定义委托、进度条渲染、QSortFilterProxyModel |
 | 14 | [Qt多线程编程：QThread与线程池实战](qt/14-Qt多线程编程QThread与线程池实战.md) | QThread两种用法、moveToThread范式、QThreadPool+QRunnable、QtConcurrent、串口采集多线程架构 |
 | 16 | [Qt自定义绘制：QPainter坐标变换、离屏渲染与实时波形](qt/16-Qt自定义绘制QPainter坐标变换与实时波形.md) | 窗口-视口变换、save/restore栈、QPixmap离屏缓存、QPainterPath、降采样实时波形与性能优化 |
+| 19 | [Qt事件循环与事件分发机制：从QEventLoop到自定义事件](qt/19-Qt事件循环与事件分发机制.md) | 事件循环原理、notify三级分发、事件vs信号槽、事件过滤器、自定义事件、sendEvent/postEvent、多线程事件循环、processEvents陷阱 |
 
 ## 计算机视觉 | Computer Vision
 
