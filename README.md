@@ -3,7 +3,7 @@
 > 嵌入式开发、数据结构与Qt技术文章合集 | Embedded Systems, Data Structures & Qt Articles
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Articles-15-blue" alt="15 Articles"/>
+  <img src="https://img.shields.io/badge/Articles-17-blue" alt="17 Articles"/>
   <img src="https://img.shields.io/badge/Topics-Embedded%20%7C%20DS%20%7C%20Qt%20%7C%20CV-orange" alt="Topics"/>
   <img src="https://img.shields.io/badge/Language-中文-lightgrey" alt="Chinese"/>
 </p>
@@ -27,6 +27,7 @@
 | 7 | [哈希表原理与C语言实现](data-structures/07-哈希表原理与C语言实现.md) | DJB2/FNV-1a哈希函数、开放寻址vs链地址、命令解析表实战 |
 | 13 | [二叉搜索树与AVL平衡树：BST到自平衡的工程实现](data-structures/13-二叉搜索树与AVL平衡树.md) | BST基础操作、退化问题、AVL四种旋转、嵌入式配置管理、性能实测对比 |
 | 15 | [堆与优先队列：C语言实现到嵌入式任务调度](data-structures/15-堆与优先队列C语言实现与嵌入式调度.md) | 二叉堆数组表示、sift-up/sift-down、堆排序O(1)空间、RTOS任务调度器、d-堆性能对比 |
+| 17 | [图算法：从DFS/BFS遍历到嵌入式路径规划](data-structures/17-图算法DFS-BFS与最短路径.md) | 邻接表存储、DFS/BFS遍历、Dijkstra最短路径、A*启发式、AGV路径规划与拓扑排序 |
 
 ## Qt开发 | Qt Framework
 
@@ -36,6 +37,7 @@
 | 9 | [使用Qt5开发跨平台串口调试助手](qt/09-Qt5串口调试助手开发.md) | QSerialPort、模块化架构、QSS样式美化、跨平台编译 |
 | 10 | [Qt Model/View架构与自定义委托实战](qt/10-Qt-Model-View架构与自定义委托.md) | QAbstractTableModel、自定义委托、进度条渲染、QSortFilterProxyModel |
 | 14 | [Qt多线程编程：QThread与线程池实战](qt/14-Qt多线程编程QThread与线程池实战.md) | QThread两种用法、moveToThread范式、QThreadPool+QRunnable、QtConcurrent、串口采集多线程架构 |
+| 16 | [Qt自定义绘制：QPainter坐标变换、离屏渲染与实时波形](qt/16-Qt自定义绘制QPainter坐标变换与实时波形.md) | 窗口-视口变换、save/restore栈、QPixmap离屏缓存、QPainterPath、降采样实时波形与性能优化 |
 
 ## 计算机视觉 | Computer Vision
 
