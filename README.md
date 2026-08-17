@@ -3,7 +3,7 @@
 > 嵌入式开发、数据结构与Qt技术文章合集 | Embedded Systems, Data Structures & Qt Articles
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Articles-19-blue" alt="19 Articles"/>
+  <img src="https://img.shields.io/badge/Articles-21-blue" alt="21 Articles"/>
   <img src="https://img.shields.io/badge/Topics-Embedded%20%7C%20DS%20%7C%20Qt%20%7C%20CV-orange" alt="Topics"/>
   <img src="https://img.shields.io/badge/Language-中文-lightgrey" alt="Chinese"/>
 </p>
@@ -18,6 +18,7 @@
 | 4 | [I2C与SPI通信协议实战对比](embedded/04-I2C-SPI协议对比.md) | I2C/SPI时序、HAL实现、四线vs两线对比、选型决策树 |
 | 12 | [STM32定时器全解：从基本定时到PWM输出](embedded/12-STM32定时器全解.md) | 定时器分类、时基单元、PWM输出、输入捕获、舵机控制、高级定时器互补输出与死区 |
 | 18 | [FreeRTOS任务调度与内存管理：从就绪链表到堆栈检测](embedded/18-FreeRTOS任务调度与内存管理.md) | TCB结构、任务状态机、就绪列表与优先级位图、PendSV上下文切换、heap_1~heap_5、栈溢出检测、STM32多任务实战 |
+| 21 | [STM32 ADC采集与数字滤波：从逐次逼近到滑动平均与卡尔曼](embedded/21-STM32-ADC采集与数字滤波.md) | SAR逐次逼近原理、采样时间与阻抗、连续扫描DMA采集、滑动平均/一阶低通/中值/卡尔曼滤波、混叠与双缓冲架构 |
 
 ## 数据结构 | Data Structures
 
@@ -29,6 +30,7 @@
 | 13 | [二叉搜索树与AVL平衡树：BST到自平衡的工程实现](data-structures/13-二叉搜索树与AVL平衡树.md) | BST基础操作、退化问题、AVL四种旋转、嵌入式配置管理、性能实测对比 |
 | 15 | [堆与优先队列：C语言实现到嵌入式任务调度](data-structures/15-堆与优先队列C语言实现与嵌入式调度.md) | 二叉堆数组表示、sift-up/sift-down、堆排序O(1)空间、RTOS任务调度器、d-堆性能对比 |
 | 17 | [图算法：从DFS/BFS遍历到嵌入式路径规划](data-structures/17-图算法DFS-BFS与最短路径.md) | 邻接表存储、DFS/BFS遍历、Dijkstra最短路径、A*启发式、AGV路径规划与拓扑排序 |
+| 20 | [排序算法：从冒泡、快排到堆排的工程实现与内存受限场景](data-structures/20-排序算法从冒泡快排到堆排.md) | O(n²)家族、快排三数取中与尾递归优化、归并稳定性、堆排O(1)空间、嵌入式选型决策树与栈深度 |
 
 ## Qt开发 | Qt Framework
 
