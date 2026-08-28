@@ -3,7 +3,7 @@
 > 嵌入式开发、数据结构与Qt技术文章合集 | Embedded Systems, Data Structures & Qt Articles
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Articles-21-blue" alt="21 Articles"/>
+  <img src="https://img.shields.io/badge/Articles-23-blue" alt="23 Articles"/>
   <img src="https://img.shields.io/badge/Topics-Embedded%20%7C%20DS%20%7C%20Qt%20%7C%20CV-orange" alt="Topics"/>
   <img src="https://img.shields.io/badge/Language-中文-lightgrey" alt="Chinese"/>
 </p>
@@ -19,6 +19,7 @@
 | 12 | [STM32定时器全解：从基本定时到PWM输出](embedded/12-STM32定时器全解.md) | 定时器分类、时基单元、PWM输出、输入捕获、舵机控制、高级定时器互补输出与死区 |
 | 18 | [FreeRTOS任务调度与内存管理：从就绪链表到堆栈检测](embedded/18-FreeRTOS任务调度与内存管理.md) | TCB结构、任务状态机、就绪列表与优先级位图、PendSV上下文切换、heap_1~heap_5、栈溢出检测、STM32多任务实战 |
 | 21 | [STM32 ADC采集与数字滤波：从逐次逼近到滑动平均与卡尔曼](embedded/21-STM32-ADC采集与数字滤波.md) | SAR逐次逼近原理、采样时间与阻抗、连续扫描DMA采集、滑动平均/一阶低通/中值/卡尔曼滤波、混叠与双缓冲架构 |
+| 22 | [STM32看门狗与系统可靠性设计：从IWDG/WWDG到故障自愈架构](embedded/22-STM32看门狗与系统可靠性设计.md) | IWDG独立时钟与超时计算、WWDG窗口机制与EWI、FreeRTOS任务心跳位图监控、RCC_CSR复位原因诊断、PVD掉电保护、分级自愈与五大反模式 |
 
 ## 数据结构 | Data Structures
 
@@ -42,6 +43,7 @@
 | 14 | [Qt多线程编程：QThread与线程池实战](qt/14-Qt多线程编程QThread与线程池实战.md) | QThread两种用法、moveToThread范式、QThreadPool+QRunnable、QtConcurrent、串口采集多线程架构 |
 | 16 | [Qt自定义绘制：QPainter坐标变换、离屏渲染与实时波形](qt/16-Qt自定义绘制QPainter坐标变换与实时波形.md) | 窗口-视口变换、save/restore栈、QPixmap离屏缓存、QPainterPath、降采样实时波形与性能优化 |
 | 19 | [Qt事件循环与事件分发机制：从QEventLoop到自定义事件](qt/19-Qt事件循环与事件分发机制.md) | 事件循环原理、notify三级分发、事件vs信号槽、事件过滤器、自定义事件、sendEvent/postEvent、多线程事件循环、processEvents陷阱 |
+| 23 | [Qt网络编程：从QTcpSocket异步模型到TCP粘包拆包实战](qt/23-Qt网络编程QTcpSocket与QUdpSocket实战.md) | QtNetwork类全景、异步I/O心智模型、QTcpServer多连接分发、TCP粘包拆包累积缓冲解析器、帧协议与CRC16-Modbus、QUdpSocket广播组播、线程归属规则、心跳与指数退避重连、网络调试助手架构 |
 
 ## 计算机视觉 | Computer Vision
 
